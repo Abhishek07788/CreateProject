@@ -1,0 +1,89 @@
+[
+  {
+    "name": "Project_Type",
+    "required": true,
+    "options": [
+      { "value": "development", "label": "Development" },
+      { "value": "design", "label": "Design" },
+      { "value": "consulting", "label": "Consulting" },
+      { "value": "marketing", "label": "Marketing" },
+      { "value": "research", "label": "Research" },
+      { "value": "training", "label": "Training" },
+      { "value": "support", "label": "Support" },
+      { "value": "deployment", "label": "Deployment" }
+    ]
+  },
+  {
+    "name": "Category",
+    "required": false,
+    "options": [
+      { "value": "software", "label": "Software" },
+      { "value": "hardware", "label": "Hardware" },
+      { "value": "services", "label": "Services" },
+      { "value": "education", "label": "Education" },
+      { "value": "healthcare", "label": "Healthcare" },
+      { "value": "finance", "label": "Finance" },
+      { "value": "retail", "label": "Retail" },
+      { "value": "manufacturing", "label": "Manufacturing" }
+    ]
+  },
+  {
+    "name": "Client",
+    "required": false,
+    "options": [
+      { "value": "reliance_industries", "label": "Reliance Industries" },
+      { "value": "tata_group", "label": "Tata Group" },
+      { "value": "infosys", "label": "Infosys" },
+      { "value": "wipro", "label": "Wipro" },
+      { "value": "hcl_technologies", "label": "HCL Technologies" },
+      { "value": "larsen_and_toubro", "label": "Larsen & Toubro" },
+      { "value": "mahindra_group", "label": "Mahindra Group" },
+      { "value": "adani_group", "label": "Adani Group" }
+    ]
+  },
+  {
+    "name": "Client's_Content",
+    "required": false,
+    "options": [
+      { "value": "business_plan", "label": "Business Plan" },
+      {
+        "value": "technical_specifications",
+        "label": "Technical Specifications"
+      },
+      { "value": "project_report", "label": "Project Report" },
+      { "value": "marketing_material", "label": "Marketing Material" },
+      { "value": "training_material", "label": "Training Material" },
+      { "value": "user_manual", "label": "User Manual" },
+      { "value": "financial_report", "label": "Financial Report" },
+      { "value": "compliance_document", "label": "Compliance Document" }
+    ]
+  },
+  {
+    "name": "Sales_Person",
+    "required": false,
+    "options": [
+      { "value": "arun_sharma", "label": "Arun Sharma" },
+      { "value": "priya_kapoor", "label": "Priya Kapoor" },
+      { "value": "ravi_verma", "label": "Ravi Verma" },
+      { "value": "anjali_mehta", "label": "Anjali Mehta" },
+      { "value": "suresh_gupta", "label": "Suresh Gupta" },
+      { "value": "neha_singh", "label": "Neha Singh" },
+      { "value": "vikas_jain", "label": "Vikas Jain" },
+      { "value": "meenal_rao", "label": "Meenal Rao" }
+    ]
+  },
+  {
+    "name": "Project_Manager",
+    "required": false,
+    "options": [
+      { "value": "amit_kumar", "label": "Amit Kumar" },
+      { "value": "deepika_sharma", "label": "Deepika Sharma" },
+      { "value": "rahul_patel", "label": "Rahul Patel" },
+      { "value": "preeti_mishra", "label": "Preeti Mishra" },
+      { "value": "manoj_saxena", "label": "Manoj Saxena" },
+      { "value": "sneha_nair", "label": "Sneha Nair" },
+      { "value": "alok_roy", "label": "Alok Roy" },
+      { "value": "kavita_rana", "label": "Kavita Rana" }
+    ]
+  }
+]
